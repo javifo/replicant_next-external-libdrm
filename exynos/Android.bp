@@ -1,0 +1,11 @@
+build = ["Android.sources.bp"]
+
+cc_library_shared {
+    name: "libdrm_exynos",
+    defaults: [
+        "libdrm_defaults",
+        "libdrm_exynos_sources",
+    ],
+    vendor: true,
+    shared_libs: ["libdrm"],
+}

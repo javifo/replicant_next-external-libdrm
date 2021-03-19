@@ -1,0 +1,7 @@
+cc_defaults {
+    name: "libdrm_exynos_sources",
+    srcs: [
+        "exynos_drm.c",
+        "exynos_fimg2d.c",
+    ],
+}
